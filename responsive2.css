@@ -1,5 +1,8 @@
 
-
+body {
+    height: 150vh;
+    width: 100vw;
+}
 .curly {
     color: blueviolet;
     margin: 15px;
