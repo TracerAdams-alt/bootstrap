@@ -8,7 +8,9 @@
 body {
     background-image: url("images/ComputerScreen.jpeg");
     background-size: cover;
-    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
     width: 100vw;
     font-family: "Roboto", sans-serif;
     color: white;
@@ -26,6 +28,17 @@ h4 {
     font-size: 3rem;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgb(197, 188, 188);
+}
+
 .devtext {
     position: relative;
     top: 10px;
@@ -36,6 +49,7 @@ h4 {
     color: white;
     background-color: rgb(97, 11, 146);
     width: 22vw;
+    min-width: 30px;
     padding: 22px;
     margin: 60px 30px 40px 30px;
     border: 1px solid black;
@@ -44,6 +58,11 @@ h4 {
 
 .bottom {
     margin-top: 70px;
+}
+
+.navbar {
+    width: 100vw;
+    padding-inline: 60px;
 }
 
 #content {
