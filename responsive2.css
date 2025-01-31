@@ -1,6 +1,6 @@
 
 body {
-    height: 150vh;
+    height: 100vh;
     width: 100vw;
 }
 .curly {
@@ -10,4 +10,30 @@ body {
 .devcourse {
     position: relative;
     top: 3px;
+}
+button {
+    background-color: blueviolet;
+}
+h1 {
+    font-size: 5rem;
+}
+a {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(245, 245, 245);
+}
+.navbar {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(245, 245, 245);
+    padding-inline: 35px;
+}
+@media screen and (max-width: 767px){
+    h1 {
+        font-size: 3rem;
+    }
+    .navbar {
+        height: auto;
+        width: 100vw;
+    }
 }
